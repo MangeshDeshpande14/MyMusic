@@ -232,16 +232,35 @@ ul li .audio-duration{
     font-size: 16px;
 }
 
-@media(min-width: 1024px){
+@media(max-width: 2048px){
     .image{
         height: 256px;
         width: 256px;
     }
 }
 
+@media(max-width: 1024px){
+    .image{
+        height: 256px;
+        width: 256px;
+    }
+}
+
+@media(max-width: 930px){
+    .image{
+        width: 230px;
+        height: 230px;
+    }
+}
+
+
 @media(max-width: 820px){
     .wrapper{
         width: 650px;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
     }
 }
 
